@@ -1,17 +1,11 @@
-# Fiji Pig Fishing v1.1
-Catch five fish in four minutes.
+# Fiji Pig Fishing v1.2
 
-## Upload update to GitHub
-Upload the contents of this folder into the repository root, replacing matching files. Keep `main.js` and `style.css` inside `src/`. Commit to `main`; the workflow publishes automatically.
+## Changes
+- Separate line and hook hang below the bobber.
+- Fishing pole bounces when a fish bites.
+- A hooked fish must be reeled above the water and swung into a bucket.
+- Pig and three-leg stool sit on a grass bank above the aquarium.
+- Coral is dramatically larger and fish steer around the coral structures.
 
-## Controls
-- Mouse or A/D: aim before casting
-- Click or Space: cast; click again when the bobber dips
-- Hold Click or Space: reel
-- Release: reduce line tension
-
-## Fixes in v1.1
-- Visible metal hook beneath the bobber
-- Animated cast lowers bobber and hook into the tank
-- Canvas-specific pointer input for reliable clicks
-- Larger branching coral
+## Upload
+Upload the contents of this directory to the repository root and replace matching files. Preserve `src/main.js`, `src/style.css`, and `.github/workflows/deploy.yml`. Commit to `main` and let GitHub Pages deploy.

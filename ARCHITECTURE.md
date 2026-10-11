@@ -1,2 +1,2 @@
 # Architecture
-Vite builds a Three.js browser game. A state machine controls idle, ready, casting, waiting, bite, reeling, and done states. GitHub Actions builds `dist/` and deploys it to GitHub Pages.
+The Three.js simulation uses ready, casting, waiting, bite, reeling, landing, and done states. Fish detect oversized coral centers and steer vertically or reverse to travel around them. Vite produces the static GitHub Pages bundle.
