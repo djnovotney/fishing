@@ -1,11 +1,14 @@
-# Fiji Pig Fishing v1.2
+# Fiji Pig Fishing v1.3
 
-## Changes
-- Separate line and hook hang below the bobber.
-- Fishing pole bounces when a fish bites.
-- A hooked fish must be reeled above the water and swung into a bucket.
-- Pig and three-leg stool sit on a grass bank above the aquarium.
-- Coral is dramatically larger and fish steer around the coral structures.
+## Updates
+- Shiny metallic fishing lure replaces the plain bobber.
+- Pig and three-leg stool sit on a wood plank above the tank water level.
+- A caught fish is lifted above the water, swung to a metal bucket, and dropped in.
+- Fishing pole shakes vertically during a bite.
+- Scoreboard shows progress toward five fish, time remaining, and total catch weight.
+- Every fish receives a random weight from 0.8 to 6.5 lb when hooked.
+- Coral uses large, rounded, flattened leaf forms and sways in the water.
+- Pressure meter includes instructions to hold/release and remain in green.
 
-## Upload
-Upload the contents of this directory to the repository root and replace matching files. Preserve `src/main.js`, `src/style.css`, and `.github/workflows/deploy.yml`. Commit to `main` and let GitHub Pages deploy.
+## Publish
+Upload this folder's contents to the repository root, replacing matching files. Keep JavaScript and CSS inside `src/`. Commit to `main`; GitHub Actions will rebuild the Pages site.
